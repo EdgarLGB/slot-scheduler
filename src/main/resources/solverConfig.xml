@@ -1,0 +1,10 @@
+<solver>
+    <solutionClass>com.criteo.Scheduler</solutionClass>
+    <entityClass>com.criteo.Slot</entityClass>
+    <scoreDirectorFactory>
+        <constraintProviderClass>com.criteo.SlotAssignmentConstraintProvider</constraintProviderClass>
+    </scoreDirectorFactory>
+    <termination>
+        <secondsSpentLimit>30</secondsSpentLimit>
+    </termination>
+</solver>
